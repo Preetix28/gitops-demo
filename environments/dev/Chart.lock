@@ -1,0 +1,9 @@
+dependencies:
+- name: nginx
+  repository: file://../../apps/nginx
+  version: 0.1.0
+- name: grafana
+  repository: file://../../apps/grafana
+  version: 0.1.0
+digest: sha256:6b15244237e081c58e40cac785b6991c8828c581a0197de557068254b4bb8d39
+generated: "2026-08-31T10:21:03.790985752Z"

@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Preetix28/gitops-demo.git
     targetRevision: master
-    path: nginx
+    path: environments/dev
 
   destination:
     server: https://kubernetes.default.svc

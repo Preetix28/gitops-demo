@@ -1,0 +1,6 @@
+nginx:
+  replicaCount: 1
+
+grafana:
+  grafana:
+    replicas: 1

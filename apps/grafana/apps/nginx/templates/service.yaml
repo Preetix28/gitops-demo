@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: nginx
 spec:
+  type: {{ .Values.service.type }}
   selector:
     app: nginx
   ports:
-    - port: 80
+    - port: {{ .Values.service.port }}
       targetPort: 80
