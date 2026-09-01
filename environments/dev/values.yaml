@@ -4,3 +4,13 @@ nginx:
 grafana:
   grafana:
     replicas: 1
+
+elasticsearch:
+  elasticsearch:
+    volumeClaimTemplate:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 10Gi
+      storageClassName: microk8s-hostpath

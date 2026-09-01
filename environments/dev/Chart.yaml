@@ -12,3 +12,7 @@ dependencies:
   - name: grafana
     version: 0.1.0
     repository: "file://../../apps/grafana"
+
+  - name: elasticsearch
+    version: 0.1.0
+    repository: "file://../../apps/elasticsearch"
