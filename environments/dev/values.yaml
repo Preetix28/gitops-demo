@@ -14,3 +14,13 @@ elasticsearch:
         requests:
           storage: 10Gi
       storageClassName: microk8s-hostpath
+
+airflow:
+  airflow:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 500m
+        memory: 512Mi

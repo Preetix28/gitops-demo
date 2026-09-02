@@ -1,0 +1,20 @@
+airflow:
+  executor: CeleryExecutor
+
+  apiServer:
+    service:
+      type: NodePort
+
+  dags:
+    persistence:
+      enabled: false
+
+  logs:
+    persistence:
+      enabled: false
+
+  postgresql:
+    enabled: true
+
+  redis:
+    enabled: true

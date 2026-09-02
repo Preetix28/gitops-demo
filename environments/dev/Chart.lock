@@ -8,5 +8,8 @@ dependencies:
 - name: elasticsearch
   repository: file://../../apps/elasticsearch
   version: 0.1.0
-digest: sha256:c6f077b9095af35571525443f26b073a82867552c37d98ae14a4e59b33a8cd71
-generated: "2026-08-31T12:01:54.487578705Z"
+- name: airflow
+  repository: file://../../apps/airflow
+  version: 0.1.0
+digest: sha256:887b7297bfacfaa717a5fa6c8b81976cf76e31cc965f15688d301f2723da2100
+generated: "2026-09-02T05:40:34.918616123Z"
