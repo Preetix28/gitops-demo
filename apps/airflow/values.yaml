@@ -24,6 +24,6 @@ airflow:
     applyCustomEnv: false
 
   migrateDatabaseJob:
-    useHekmHooks: false
+    useHelmHooks: false
     applyCustomEnv: false
 
