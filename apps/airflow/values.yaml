@@ -18,3 +18,12 @@ airflow:
 
   redis:
     enabled: true
+
+  createUserJob:
+    useHelmHooks: false
+    applyCustomEnv: false
+
+  migrateDatabaseJob:
+    useHekmHooks: false
+    applyCustomEnv: false
+
