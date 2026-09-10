@@ -22,8 +22,9 @@ airflow:
   createUserJob:
     useHelmHooks: false
     applyCustomEnv: false
+    ttlSecondsAfterFinished: null
 
   migrateDatabaseJob:
     useHelmHooks: false
     applyCustomEnv: false
-
+    ttlSecondsAfterFinished: null
