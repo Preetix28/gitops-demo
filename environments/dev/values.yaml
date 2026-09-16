@@ -2,7 +2,7 @@ nginx:
   replicaCount: 2
   image:
     repository: preetim28/nginx
-    tag: "4"
+    tag: "5"
 
 grafana:
   grafana:
